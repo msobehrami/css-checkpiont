@@ -1,0 +1,165 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylea/style.css">
+
+</head>
+<style>
+fieldset{ 
+    width: max-content;
+    margin-left:auto;
+    margin-right: auto;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+legend{
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    }
+    label, input{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+label{
+    color: rgb(228, 228, 228);
+    font-size: 13px;
+    font-family: cursive;
+}
+
+input{
+    width: 100%;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    margin-bottom: 12px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+button{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    width: 120px;
+    height: 40px;
+    border-radius: 5px;
+    margin-top: 30px;
+    font-size: 13px;
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+
+button:hover{
+    color: black;
+    background: white;
+    cursor: pointer;
+}
+
+textarea{
+    display: block;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    resize: none;
+    width: 100%;
+    
+}
+
+#contact{
+    color: goldenrod;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+#contact-body{
+    background-color: #2F375B;
+}
+
+select{
+    width: 30%;
+    border-radius: 5px;
+}
+</style>
+<body id="contact-body">
+
+    <nav>
+        <h1>Portfolio</h1>
+        <ul>
+            <li><a href="index.html"> About </a></li>
+            <li><a href="projects.html"> Projects </a></li>
+            <li><a href="contact.html">Contact </a></li>
+        </ul>
+    
+    </nav>
+
+    <h1 id="contact">Contact me</h1>
+    
+    <form>
+        <fieldset>
+            <legend>Sign Up</legend>
+            <label for="name">Name: </label>
+            <input type="text">
+            <label for="email">Email: </label>
+            <input type="email">
+            <label for="password">Password: </label>
+            <input type="password">
+            <label for="age">Age: </label>
+            <input type="number">
+            <label for="">Gender</label>
+            <select name="" id="">
+                <option value="male">male</option>
+                <option value="female">female</option>
+            </select>
+            <button>Submit</button>
+        </fieldset>
+    </form>
+    
+    <footer>
+        <div class="informations">
+            <h1>Contact Me </h1>
+            <h3>Rami Mosbeh</h3> <br>
+            <h3>24445694</h3> <br>
+            <h3>ramigamer737@gmail.com</h3>
+        </div>
+        <div class="social">
+            <a href="https://github.com/" target="_blank"> <img src="images/github.png" width="50px" height="50px" alt="">
+            </a>
+            <a href="linkedin.com" target="_blank"> <img src="images/linked in.png" width="50px" height="50px" alt="">
+            </a>
+            <a href="https://www.codewars.com/" target="_blank"> <img src="images/codewars-512.webp" width="50px"
+                    height="50px"> </a>
+        </div>
+
+        <div class="copyrights">
+            <h3>desgined by Rami</h3>
+        </div>
+
+
+    </footer>
+
+
+
+
+    <div id="mttContainer" class="notranslate" aria-expanded="false" style="transform: translate(984px, 42px);"></div>
+</body>
+
+</html>
